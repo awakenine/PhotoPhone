@@ -110,10 +110,10 @@ Result:
 
 ![](clues/diff-0.png)
 
-Searching what is the SingMyImage lend me to 
+Search what is the SingMyImage
 http://signmyimage.findmysoft.com/.
 
-Here I downloaded the tool, ran it on my Windows VM, opened the signed image and read the signature.
+I downloaded the tool, ran it on my Windows VM, opened the signed image and read the signature.
 
 Tool returned me the link http://www.trimurl.eu/BEARDPOWER.
 
