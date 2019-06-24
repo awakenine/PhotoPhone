@@ -1,6 +1,6 @@
 # PhotoPhone
 
-##Task description
+## Task description
 Open this link?
 <a href=http://167.114.239.136> http://167.114.239.136</a>
 
@@ -59,7 +59,7 @@ Some strange picture
 
 Phone Call to Mr. Rijndael
 
-##Initial reconnaissance
+## Initial reconnaissance
 Mr. Rijndael? 
 Let's google:
 
@@ -87,7 +87,7 @@ Wow, now I have IV, that is used in block cyphers.
 
 Combining this parts I understood that AES-256-CBC was used.
 
-#Photo of Mr. Rijndael
+## Photo of Mr. Rijndael
 I opened the image in new tab
 
 [http://167.114.239.136/wp-content/uploads/2019/06/IMG_3765-cropped-signed.png](http://167.114.239.136/wp-content/uploads/2019/06/IMG_3765-cropped-signed.png)
@@ -122,7 +122,7 @@ We have a key part: **BEARDPOWER**
 
 That's enough for this image. Let's move to the next file.
 
-##qrpolarcode
+## qrpolarcode
 
 Word "polar" seems to be a hint. Let's search in Google words "polar imagemagick". Firsh or second result:
 
@@ -151,7 +151,7 @@ Base64 decode -> zlib inflate
 
 Second part of the key: **HACKQUESTOFFZONESUPERSECRETCODEADINADIN**
 
-##Phone-call
+## Phone-call
 
 Let's listen the call. I hear tone number at the very beginning. Let's extract number.
 ```
@@ -178,7 +178,7 @@ DTMF: 4
 ```
 Third part of the key : **15556274569824**
 
-##Decrypting
+## Decrypting
 
 I tried a lot of combination to decode the message. You know that key length is 256 bits or 32 8-bit ascii symbols.
 I've tried all the combinations of this length with no result.
