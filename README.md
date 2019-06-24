@@ -180,7 +180,7 @@ Third part of the key : **15556274569824**
 
 ## Decrypting
 
-I tried a lot of combination to decode the message. You know that key length is 256 bits or 32 8-bit ascii symbols.
+I tried a lot of combinations to decode the message. You know that key length is 256 bits or 32 8-bit ascii symbols.
 I've tried all the combinations of this length with no result.
 
 ```
@@ -193,13 +193,14 @@ I've tried all the combinations of this length with no result.
 ```
 
 There were no progress till the hint:
+
 "Join three clues into one. Then use most popular algorithm to obtain the key #hint for PhotoPhone"
 
-Most popular alg that produses 32 bits? MD5???
+Hmm... Most popular alg that produses 32 bits? MD5???
 
-I modified the script that was written by [Dzmitry Savitski](https://github.com/dzmitry-savitski) to bruteforce the key.
-Task written in PHP, so let's use PHP to solve the task.
-[PhotoPhone.php](PhotoPhone.php)
+I modified the PHP (task written in PHP better to solve using PHP) script that was written by [Dzmitry Savitski](https://github.com/dzmitry-savitski) to bruteforce the key.
+
+Solver: [PhotoPhone.php](PhotoPhone.php)
 
 After running the script the flag was obtained: 
 **OfFZonE2019Here!**
