@@ -112,6 +112,7 @@ Result:
 
 Searching what is the SingMyImage lend me to 
 http://signmyimage.findmysoft.com/.
+
 Here I downloaded the tool, ran it on my Windows VM, opened the signed image and read the signature.
 
 Tool returned me the link http://www.trimurl.eu/BEARDPOWER.
@@ -120,11 +121,9 @@ This link is a url shortener that does not work anymore, as support of the SingM
 
 We have a key part: **BEARDPOWER**
 
-That's enough for this image. Let's move to the next file.
-
 ## qrpolarcode
 
-Word "polar" seems to be a hint. Let's search in Google words "polar imagemagick". Firsh or second result:
+Word "polar" seems to be a hint. Let's search in Google words "polar imagemagick".
 
 [http://www.imagemagick.org/Usage/distorts/](http://www.imagemagick.org/Usage/distorts/)
 
@@ -132,7 +131,7 @@ This documentation simply transforms into the following line.
 ```
 convert -distort DePolar 0 -distort DePolar 0 qrpolarcode.png qr.png
 ```
-And then flatten to scan with qr-scanner
+And then flatten the png to scan with qr-scanner
 ```
 convert -flatten qr.png qr.jpg
 ```
