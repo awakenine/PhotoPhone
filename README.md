@@ -85,7 +85,7 @@ Also, at the very bottom of the page source I've noticed small JS
 
 Wow, now I have IV, that is used in block ciphers.
 
-Combining this parts I understood that AES-256-CBC was used.
+Combining these parts I understood that AES-256-CBC was used.
 
 ## Photo of Mr. Rijndael
 I opened the image in new tab
